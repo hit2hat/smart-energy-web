@@ -9,6 +9,13 @@ import SunIcon from '../assets/sun.svg';
 import '../styles/home.sass';
 
 class Home extends React.Component {
+
+    state = {
+        windmill: 15,
+        sun: 45,
+        accumulator: 23
+    };
+
     render() {
         return (
             <div className="home">
@@ -31,25 +38,25 @@ class Home extends React.Component {
                         <div className="home-input home-inputs__left">
                             <img src={WindmillIcon} alt="Windmill" />
                             <div className="home-input__data">
-                                <span>15</span> Ватт
+                                <span>{this.state.windmill}</span> Ватт
                             </div>
                         </div>
                         <div className="home-accumulator">
                             <div className="home-accumulator__title">Аккумуляторный блок</div>
                             <div className="home-accumulator__indicator">
                                 <div className="data">
-                                    Блок заряжен на <span>25</span>%
+                                    Блок заряжен на <span>{this.state.accumulator}</span>%
                                 </div>
-                                <div className="mover"/>
+                                <div className="mover" style={{ width: this.state.accumulator + '%' }} />
                             </div>
                             <div className="home-accumulator__prediction">
                                 Данной энергии хватит ~ на <span>5</span> часов автономной работы
                             </div>
                         </div>
                         <div className="home-input home-inputs__right">
-                            <img src={SunIcon} alt="Windmill" />
+                            <img src={SunIcon} alt="Sun" />
                             <div className="home-input__data">
-                                <span>45</span> Ватт
+                                <span>{this.state.sun}</span> Ватт
                             </div>
                         </div>
                     </Group>
