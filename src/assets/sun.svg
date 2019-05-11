@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="108" width="107.99999999999955">
+  <defs>
+    <path id="path-1" opacity="1" fill-rule="evenodd" d="M50.000000000000085,24.953498671390605 C36.189105403011574,24.953498671390605 24.95349867139066,36.191319751992914 24.95349867139066,50.0022143489814 C24.95349867139066,63.81310894596989 36.189105403011574,75.0509300265722 50.000000000000085,75.0509300265722 C63.80868024800719,75.0509300265722 75.04650132860951,63.8153232949513 75.04650132860951,50.00221434898141 C75.04650132860951,36.189105403011524 63.80868024800719,24.953498671390605 50.000000000000085,24.953498671390605Z"/>
+    <filter id="filter-2" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-3" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-1" fill="white"/>
+    </mask>
+    <path id="path-4" opacity="1" fill-rule="evenodd" d="M50.000000000000085,17.5907883082374 C47.300708591674145,17.5907883082374 45.11293179805148,15.40301151461472 45.11293179805148,12.705934455270166 L45.11293179805148,4.887068201948632 C45.112931798051484,2.1877767936226777 47.30070859167415,0 50.000000000000085,0 C52.699291408326026,0 54.88706820194869,2.1877767936226777 54.88706820194869,4.887068201948632 L54.88706820194869,12.705934455270166 C54.88706820194869,15.40301151461472 52.69707705934463,17.590788308237396 50.000000000000085,17.5907883082374Z"/>
+    <filter id="filter-5" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-6" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-4" fill="white"/>
+    </mask>
+    <path id="path-7" opacity="1" fill-rule="evenodd" d="M50.000000000000085,82.40699734278121 C47.300708591674145,82.40699734278121 45.11293179805148,84.59477413640388 45.11293179805148,87.29406554472983 L45.11293179805148,95.11071744906995 C45.11293179805148,97.8122232063773 47.300708591674145,99.99999999999997 50.000000000000085,99.99999999999997 C52.699291408326026,99.99999999999997 54.88706820194869,97.8122232063773 54.88706820194869,95.11071744906995 L54.88706820194869,87.29406554472983 C54.88706820194869,84.59477413640388 52.69707705934463,82.40699734278121 50.000000000000085,82.40699734278121Z"/>
+    <filter id="filter-8" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-9" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-7" fill="white"/>
+    </mask>
+    <path id="path-10" opacity="1" fill-rule="evenodd" d="M72.9140832595217,27.083702391496928 C71.0075287865368,25.174933569530587 71.0075287865368,22.08148804251553 72.9140832595217,20.172719220549187 L78.44331266607612,14.64348981399471 C80.34986713906103,12.736935341009769 83.44552701505746,12.736935341009769 85.35429583702378,14.64348981399471 C87.26306465899012,16.552258635961053 87.26306465899012,19.64791851195751 85.35429583702378,21.554472984942457 L79.82506643046938,27.083702391496928 C77.91851195748447,28.992471213463272 74.82506643046943,28.992471213463272 72.9140832595217,27.083702391496928Z"/>
+    <filter id="filter-11" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-12" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-10" fill="white"/>
+    </mask>
+    <path id="path-13" opacity="1" fill-rule="evenodd" d="M27.083702391497,72.91851195748448 C25.174933569530644,71.00752878653674 22.08148804251556,71.00752878653674 20.172719220549197,72.91851195748448 L14.643489813994675,78.44552701505755 C12.736935341009715,80.35208148804249 12.734720992028315,83.44995571302034 14.643489813994675,85.35651018600531 C16.552258635961035,87.26306465899023 19.647918511957517,87.26306465899023 21.55447298494248,85.35651018600531 L27.083702391497,79.82506643046943 C28.99247121346336,77.9185119574845 28.99247121346336,74.82285208148804 27.083702391497,72.91851195748448Z"/>
+    <filter id="filter-14" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-15" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-13" fill="white"/>
+    </mask>
+    <path id="path-16" opacity="1" fill-rule="evenodd" d="M82.40699734278087,49.99999999999999 C82.40699734278087,47.30070859167404 84.59477413640353,45.11293179805136 87.29406554472948,45.11293179805136 L95.11293179805095,45.11293179805136 C97.81222320637688,45.11293179805136 99.99999999999955,47.30070859167404 99.99999999999955,49.99999999999999 C99.99999999999955,52.69929140832595 97.81222320637688,54.884853852967225 95.11293179805095,54.884853852967225 L87.29406554472948,54.884853852967225 C84.59477413640353,54.884853852967225 82.40699734278087,52.69929140832595 82.40699734278087,49.99999999999999Z"/>
+    <filter id="filter-17" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-18" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-16" fill="white"/>
+    </mask>
+    <path id="path-19" opacity="1" fill-rule="evenodd" d="M17.590788308237318,49.99999999999999 C17.590788308237318,47.30070859167404 15.403011514614649,45.11293179805136 12.703720106288708,45.11293179805136 L4.887068201948611,45.11293179805136 C2.1877767936226675,45.11293179805137 0,47.300708591674045 0,49.99999999999999 C0,52.69929140832595 2.1877767936226675,54.884853852967225 4.88706820194861,54.884853852967225 L12.705934455270107,54.884853852967225 C15.403011514614649,54.884853852967225 17.590788308237315,52.69929140832595 17.590788308237318,49.99999999999999Z"/>
+    <filter id="filter-20" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-21" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-19" fill="white"/>
+    </mask>
+    <path id="path-22" opacity="1" fill-rule="evenodd" d="M72.91408325952176,72.91851195748447 C74.82285208148812,71.01195748449953 77.9185119574846,71.01195748449953 79.82506643046956,72.91851195748447 L85.35429583702408,78.44774136403893 C87.26306465899043,80.35208148804249 87.26306465899043,83.44995571302033 85.35429583702408,85.35651018600528 C83.44552701505772,87.2630646589902 80.35208148804264,87.2630646589902 78.44331266607628,85.35651018600528 L72.91408325952176,79.8272807794508 C71.0053144375554,77.91851195748445 71.0053144375554,74.8250664304694 72.91408325952176,72.91851195748447Z"/>
+    <filter id="filter-23" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-24" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-22" fill="white"/>
+    </mask>
+    <path id="path-25" opacity="1" fill-rule="evenodd" d="M27.083702391497,27.083702391496896 C28.99247121346336,25.17493356953056 28.99247121346336,22.081488042515506 27.083702391497,20.17271922054917 L21.55447298494248,14.645704162976108 C19.64570416297612,12.736935341009769 16.552258635961035,12.736935341009769 14.643489813994675,14.645704162976108 C12.734720992028315,16.552258635961046 12.734720992028315,19.647918511957496 14.643489813994675,21.554472984942436 L20.172719220549197,27.083702391496896 C22.08148804251556,28.994685562444634 25.174933569530644,28.994685562444634 27.083702391497,27.083702391496896Z"/>
+    <filter id="filter-26" filterUnits="userSpaceOnUse" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset in="SourceAlpha" result="shadow-1-feOffset-shadow" dx="0" dy="0"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="2"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.11372549019607843  0 0 0 0 0.7254901960784313  0 0 0 0 0.32941176470588235  0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-27" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="-4" y="-4">
+      <rect opacity="1" x="-4" y="-4" width="107.99999999999955" height="108" fill="black"/>
+      <use xlink:href="#path-25" fill="white"/>
+    </mask>
+  </defs>
+  <g transform="translate(4, 4)" opacity="1">
+    <g opacity="1">
+      <g opacity="1">
+        <use xlink:href="#path-1" fill="black" filter="url(#filter-2)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-1" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-1" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-3)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-4" fill="black" filter="url(#filter-5)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-4" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-4" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-6)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-7" fill="black" filter="url(#filter-8)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-7" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-7" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-9)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-10" fill="black" filter="url(#filter-11)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-10" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-10" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-12)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-13" fill="black" filter="url(#filter-14)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-13" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-13" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-15)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-16" fill="black" filter="url(#filter-17)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-16" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-16" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-18)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-19" fill="black" filter="url(#filter-20)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-19" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-19" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-21)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-22" fill="black" filter="url(#filter-23)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-22" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-22" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-24)"/>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-25" fill="black" filter="url(#filter-26)" stroke="black" stroke-opacity="1" stroke-width="0.2"/>
+        <use xlink:href="#path-25" fill="rgb(255,255,255)" fill-opacity="1"/>
+        <use xlink:href="#path-25" fill-opacity="0" stroke="rgb(29,185,84)" stroke-opacity="1" stroke-width="0.4" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-27)"/>
+      </g>
+    </g>
+  </g>
+</svg>
