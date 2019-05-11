@@ -1,7 +1,5 @@
 import React from "react";
 
-import '../styles/switch.sass';
-
 class Switch extends React.Component {
 
     constructor(props) {

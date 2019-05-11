@@ -8,8 +8,6 @@ import WindmillIcon from '../assets/sun.svg';
 import SunIcon from '../assets/sun.svg';
 import AddIcon from '../assets/add.svg';
 
-import '../styles/home.sass';
-
 class Home extends React.Component {
 
     state = {

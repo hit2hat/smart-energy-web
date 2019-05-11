@@ -6,8 +6,6 @@ import Switch from './Switch';
 import PlugOnIcon from '../assets/plug.svg';
 import PlugOffIcon from '../assets/plug_off.svg';
 
-import '../styles/plug.sass'
-
 class Plug extends React.Component {
 
     state = {

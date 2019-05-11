@@ -2,8 +2,6 @@ import React from "react";
 
 import Button from '../components/Button';
 
-import '../styles/navbar.sass';
-
 const NavBar = () => {
     return (
         <nav>
