@@ -4,7 +4,6 @@ import NavBar from '../components/NavBar';
 import Group from '../components/Group';
 import Plug from '../components/Plug';
 
-import WindmillIcon from '../assets/sun.svg';
 import SunIcon from '../assets/sun.svg';
 import AddIcon from '../assets/add.svg';
 
@@ -78,7 +77,7 @@ class Home extends React.Component {
                     </Group>
                     <Group className="home-inputs">
                         <div className="home-input home-inputs__left">
-                            <img src={WindmillIcon} alt="Windmill"/>
+                            <img src={SunIcon} alt="Windmill"/>
                             <div className="home-input__data">
                                 <span>{this.state.windmill}</span> Ватт
                             </div>
