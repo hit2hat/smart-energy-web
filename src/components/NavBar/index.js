@@ -1,13 +1,13 @@
 import React from "react";
 
-import Button from '../components/Button';
+import Button from '../Button';
 
 const NavBar = () => {
     return (
-        <nav>
+        <nav className="nav">
             <div className="nav-title">Smart Energy</div>
             <div className="nav-right">
-                <Button onClick={() => null}>Вход</Button>
+                <Button onClick={() => null} type="outline">Вход</Button>
             </div>
         </nav>
     );

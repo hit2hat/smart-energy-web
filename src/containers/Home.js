@@ -16,7 +16,7 @@ class Home extends React.Component {
         accumulator: 23,
         plugs: [
             {
-                index: 1,
+                Group: 1,
                 voltage: 5,
                 amperage: 1,
                 power: 5,
@@ -24,7 +24,7 @@ class Home extends React.Component {
                 name: "Сервер ВК"
             },
             {
-                index: 2,
+                Group: 2,
                 voltage: 220,
                 amperage: 2.5,
                 power: 68,
@@ -32,7 +32,7 @@ class Home extends React.Component {
                 name: "Компьютер сисадмина"
             },
             {
-                index: 3,
+                Group: 3,
                 voltage: 220,
                 amperage: 2.5,
                 power: 68,
@@ -40,7 +40,7 @@ class Home extends React.Component {
                 name: "ClickHouse яндекса"
             },
             {
-                index: 4,
+                Group: 4,
                 voltage: 220,
                 amperage: 2.5,
                 power: 68,
@@ -48,7 +48,7 @@ class Home extends React.Component {
                 name: "Лампа"
             },
             {
-                index: 5,
+                Group: 5,
                 voltage: 220,
                 amperage: 2.5,
                 power: 68,

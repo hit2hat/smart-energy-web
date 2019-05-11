@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Group from './Group';
-import Switch from './Switch';
+import Group from '../Group';
+import Switch from '../Switch';
 
-import PlugOnIcon from '../assets/plug.svg';
-import PlugOffIcon from '../assets/plug_off.svg';
+import PlugOnIcon from '../../assets/plug.svg';
+import PlugOffIcon from '../../assets/plug_off.svg';
 
 class Plug extends React.Component {
 

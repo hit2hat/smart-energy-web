@@ -17,7 +17,7 @@ Group.propTypes = {
     /**
      * Контент
      */
-    children: PropTypes.node.isRequired
+    children: PropTypes.any.isRequired
 };
 
 Group.defaultProps = {

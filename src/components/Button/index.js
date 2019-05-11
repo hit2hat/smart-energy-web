@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const Button = (props) => {
     return (
         <div
-            className={props.className ? "button " + props.className : "button"}
+            className={props.className ? "button-" + props.type + " " + props.className : "button-" + props.type}
             onClick={props.onClick}
         >
             {props.children}
@@ -24,12 +24,17 @@ Button.propTypes = {
     /**
      * Текст на кнопки
      */
-    children: PropTypes.string.isRequired
+    children: PropTypes.string.isRequired,
+    /**
+     * Тип кнопки
+     */
+    type: PropTypes.oneOf(["filled", "outline", "disabled"])
 };
 
 Button.defaultProps = {
     children: "Кнопка",
-    onClick: () => null
+    onClick: () => null,
+    type: "filled"
 };
 
 export default Button;
