@@ -2,13 +2,19 @@
 
 nav
     height: 80px
+    display: grid
+    grid-template-columns: 1fr 1fr
     background: $primary-color
-    display: flex
-    align-items: center
     padding: 0 25px
     box-shadow: 0 5px 25px $primary-color
     margin-bottom: 50px
+    align-items: center
 
-nav > .nav-title
-    color: $white-color
-    @include font-subtitle()
+    .nav-title
+        color: $white-color
+        @include font-subtitle()
+        display: inline-block
+
+    .nav-right
+        display: flex
+        justify-content: flex-end
