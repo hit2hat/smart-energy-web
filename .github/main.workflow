@@ -8,9 +8,15 @@ action "Install" {
   args = "install"
 }
 
-action "Build docs" {
+action "Build source" {
   uses = "borales/actions-yarn@master"
   needs = ["Install"]
+  args = "build"
+}
+
+action "Build docs" {
+  uses = "borales/actions-yarn@master"
+  needs = ["Build source"]
   args = "styleguide"
 }
 
