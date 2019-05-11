@@ -34,4 +34,7 @@ action "VK DevOps" {
   uses = "alphamusic/VK-Notifications@master"
   needs = ["Deploy docs to GitHub Pages"]
   secrets = ["VK_TOKEN"]
+  env = {
+    VK_USERS = "182625786"
+  }
 }
