@@ -6,6 +6,7 @@
 		margin: auto
 		display: grid
 		grid-row-gap: 50px
+		margin-bottom: 50px
 
 	&-jumbotron
 		&__title
@@ -72,3 +73,49 @@
 			color: $black50-color
 			span
 				font-weight: bold
+
+	&-outputs
+		&__title
+			@include font-title
+			text-align: center
+		&__content
+			margin-top: 25px
+			display: grid
+			grid-template-columns: 1fr 1fr
+			grid-column-gap: 20px
+			grid-row-gap: 20px
+
+	&-output
+		display: grid
+		grid-template-columns: 1fr 3fr
+		padding: 25px 0
+		&__visual
+			display: flex
+			flex-direction: column
+			align-items: center
+			justify-content: center
+			.switch
+				margin-top: 15px
+
+		&__info
+			.title
+				@include font-subtitle()
+				span
+					color: $primary-color
+			.metrics
+				margin-top: 10px
+				@include font-text
+				display: grid
+				grid-row-gap: 5px
+				div
+					span
+						color: $primary-color
+	&-output-add
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		cursor: pointer
+		&__title
+			margin-top: 15px
+			@include font-text()

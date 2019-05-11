@@ -1,0 +1,24 @@
+@import './main'
+
+.switch
+	background: $white-color
+	border: .5px solid $primary-color
+	border-radius: 10px
+	display: grid
+	grid-template-columns: 1fr 1fr
+	@include font-text()
+	font-size: 14px
+	box-shadow: 0 0 10px $primary-color
+	color: $primary-color
+	overflow: hidden
+
+	&__side
+		padding: 5px 10px
+		text-align: center
+		cursor: pointer
+		transition: 200ms all
+
+	&__toggled
+		background: $primary-color
+		color: $white-color
+		transition: 200ms all
