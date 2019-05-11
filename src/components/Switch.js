@@ -1,11 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 class Switch extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            switched: props.switched || false
+            switched: props.switched
         };
         this.onSwitch = props.onSwitch;
     }
@@ -35,5 +36,25 @@ class Switch extends React.Component {
         );
     }
 }
+
+Switch.propTypes = {
+    /**
+     * Кастомный класс стиля
+     */
+    className: PropTypes.string,
+    /**
+     * Начальное положение
+     */
+    switched: PropTypes.bool,
+    /**
+     * Функция, которая вызывается при смене положения
+     */
+    onSwitch: PropTypes.func,
+};
+
+Switch.defaultProps = {
+    switched: false,
+    onSwitch: () => null
+};
 
 export default Switch;

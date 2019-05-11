@@ -13,7 +13,49 @@ class Home extends React.Component {
     state = {
         windmill: 15,
         sun: 45,
-        accumulator: 23
+        accumulator: 23,
+        plugs: [
+            {
+                index: 1,
+                voltage: 5,
+                amperage: 1,
+                power: 5,
+                isOn: true,
+                name: "Сервер ВК"
+            },
+            {
+                index: 2,
+                voltage: 220,
+                amperage: 2.5,
+                power: 68,
+                isOn: true,
+                name: "Компьютер сисадмина"
+            },
+            {
+                index: 3,
+                voltage: 220,
+                amperage: 2.5,
+                power: 68,
+                isOn: false,
+                name: "ClickHouse яндекса"
+            },
+            {
+                index: 4,
+                voltage: 220,
+                amperage: 2.5,
+                power: 68,
+                isOn: true,
+                name: "Лампа"
+            },
+            {
+                index: 5,
+                voltage: 220,
+                amperage: 2.5,
+                power: 68,
+                isOn: true,
+                name: "Кондиционер"
+            }
+        ]
     };
 
     render() {
@@ -63,11 +105,11 @@ class Home extends React.Component {
                     <div className="home-outputs">
                         <div className="home-outputs__title">Потребители</div>
                         <div className="home-outputs__content">
-                            <Plug/>
-                            <Plug/>
-                            <Plug/>
-                            <Plug/>
-                            <Plug/>
+                            {this.state.plugs.map((plug, key) => {
+                                return (
+                                    <Plug key={key} {...plug} />
+                                );
+                            })}
                             <Group className="home-add-plug">
                                 <img src={AddIcon} alt=""/>
                                 <div className="home-add-plug__title">Подключить еще одну</div>
