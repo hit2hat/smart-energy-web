@@ -76,7 +76,7 @@
 
 	&-outputs
 		&__title
-			@include font-title
+			@include font-title()
 			text-align: center
 		&__content
 			margin-top: 25px
@@ -119,3 +119,31 @@
 		&__title
 			margin-top: 15px
 			@include font-text()
+
+	&-statistics
+		&__title
+			@include font-title()
+			text-align: center
+		&__content
+			margin-top: 25px
+			display: grid
+			grid-row-gap: 25px
+
+	&-graph
+		height: 350px
+
+	&-support
+		display: grid
+		grid-row-gap: 10px
+		align-items: center
+		justify-content: center
+		flex-direction: column
+		padding: 25px 0
+		text-align: center
+		&__title
+			@include font-title()
+			margin-bottom: 5px
+		&__text
+			@include font-text()
+			span
+				color: $primary-color

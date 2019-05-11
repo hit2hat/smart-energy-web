@@ -141,6 +141,22 @@ class Home extends React.Component {
                             </Group>
                         </div>
                     </div>
+                    <div className="home-statistics">
+                        <div className="home-statistics__title">Статистика</div>
+                        <div className="home-statistics__content">
+                            <Group className="home-graph">
+
+                            </Group>
+                            <Group className="home-graph">
+
+                            </Group>
+                        </div>
+                    </div>
+                    <Group className="home-support">
+                        <div className="home-support__title">Возникли вопросы или появились предложения?</div>
+                        <div className="home-support__text">Позвоните нам по телефону: 8 <span>(</span>999<span>)</span>-123-45-67</div>
+                        <div className="home-support__text">Напишите нам ВК: <a href="https://vk.me/hit2hat">https://vk.me/hit2hat</a></div>
+                    </Group>
                 </div>
             </div>
         );
