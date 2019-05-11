@@ -37,7 +37,7 @@ class Home extends React.Component {
                 amperage: 2.5,
                 power: 68,
                 isOn: false,
-                name: "ClickHouse яндекса"
+                name: "ClickHouse логов ВК"
             },
             {
                 Group: 4,
