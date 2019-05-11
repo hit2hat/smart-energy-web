@@ -1,0 +1,74 @@
+@import './main'
+
+.home
+	&-content
+		max-width: 1180px
+		margin: auto
+		display: grid
+		grid-row-gap: 50px
+
+	&-jumbotron
+		&__title
+			@include font-title()
+			margin-top: 25px
+			text-align: center
+			span
+				color: $primary-color
+		&__text
+			margin: 25px
+			@include font-text()
+
+	&-inputs
+		display: grid
+		grid-template-columns: 200px 1fr 200px
+		&__left
+			border-right: 0.5px solid rgba($black-color, .25)
+		&__right
+			border-left: 0.5px solid rgba($black-color, .25)
+
+	&-input
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-direction: column
+		padding: 25px 0
+		&__data
+			padding-top: 15px
+			@include font-text()
+			span
+				color: $primary-color
+
+	&-accumulator
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-direction: column
+		&__title
+			@include font-subtitle()
+		&__indicator
+			margin-top: 15px
+			background: $white-color
+			width: 80%
+			height: 50px
+			display: flex
+			align-items: center
+			justify-content: center
+			border-radius: 10px
+			box-shadow: 0 0 25px $primary-color
+			position: relative
+			overflow: hidden
+			.data
+				@include font-text()
+				color: $primary-color
+			.mover
+				left: 0
+				position: absolute
+				background: $primary-color
+				height: 50px
+				width: 10%
+		&__prediction
+			margin-top: 15px
+			@include font-optional()
+			color: $black50-color
+			span
+				font-weight: bold

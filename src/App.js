@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+
+import Home from './containers/Home';
 
 function App() {
     return (
-        <div className="App">
-            Smart Energy
+        <div className="app">
+            <Home/>
         </div>
     );
 }
