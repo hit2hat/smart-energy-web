@@ -2,12 +2,10 @@ import React from "react";
 
 import NavBar from '../components/NavBar';
 import Group from '../components/Group';
-import Switch from '../components/Switch';
+import Plug from '../components/Plug';
 
 import WindmillIcon from '../assets/sun.svg';
 import SunIcon from '../assets/sun.svg';
-import PlugOnIcon from '../assets/plug.svg';
-import PlugOffIcon from '../assets/plug_off.svg';
 import AddIcon from '../assets/add.svg';
 
 import '../styles/home.sass';
@@ -67,77 +65,14 @@ class Home extends React.Component {
                     <div className="home-outputs">
                         <div className="home-outputs__title">Потребители</div>
                         <div className="home-outputs__content">
-                            <Group className="home-output">
-                                <div className="home-output__visual">
-                                    <img src={PlugOnIcon} alt=""/>
-                                    <Switch switched={true} />
-                                </div>
-                                <div className="home-output__info">
-                                    <div className="title"><span>#1</span> Без названия</div>
-                                    <div className="metrics">
-                                        <div>Напряжение: <span>220</span> Вольт</div>
-                                        <div>Сила тока: <span>2.5</span> Ампера</div>
-                                        <div>Мощность: <span>67</span> Ватт</div>
-                                    </div>
-                                </div>
-                            </Group>
-                            <Group className="home-output">
-                                <div className="home-output__visual">
-                                    <img src={PlugOnIcon} alt=""/>
-                                    <Switch switched={true} />
-                                </div>
-                                <div className="home-output__info">
-                                    <div className="title"><span>#2</span> Без названия</div>
-                                    <div className="metrics">
-                                        <div>Напряжение: <span>220</span> Вольт</div>
-                                        <div>Сила тока: <span>2.5</span> Ампера</div>
-                                        <div>Мощность: <span>67</span> Ватт</div>
-                                    </div>
-                                </div>
-                            </Group>
-                            <Group className="home-output">
-                                <div className="home-output__visual">
-                                    <img src={PlugOffIcon} alt=""/>
-                                    <Switch switched={false} />
-                                </div>
-                                <div className="home-output__info">
-                                    <div className="title"><span>#3</span> Без названия</div>
-                                    <div className="metrics">
-                                        Для отображения статистики включите розетку
-                                    </div>
-                                </div>
-                            </Group>
-                            <Group className="home-output">
-                                <div className="home-output__visual">
-                                    <img src={PlugOnIcon} alt=""/>
-                                    <Switch switched={true} />
-                                </div>
-                                <div className="home-output__info">
-                                    <div className="title"><span>#4</span> Без названия</div>
-                                    <div className="metrics">
-                                        <div>Напряжение: <span>220</span> Вольт</div>
-                                        <div>Сила тока: <span>2.5</span> Ампера</div>
-                                        <div>Мощность: <span>67</span> Ватт</div>
-                                    </div>
-                                </div>
-                            </Group>
-                            <Group className="home-output">
-                                <div className="home-output__visual">
-                                    <img src={PlugOnIcon} alt=""/>
-                                    <Switch switched={true} />
-                                </div>
-                                <div className="home-output__info">
-                                    <div className="title"><span>#5</span> Без названия</div>
-                                    <div className="metrics">
-                                        <div>Напряжение: <span>220</span> Вольт</div>
-                                        <div>Сила тока: <span>2.5</span> Ампера</div>
-                                        <div>Мощность: <span>67</span> Ватт</div>
-                                    </div>
-                                </div>
-                            </Group>
-                            <Group className="home-output-add">
+                            <Plug/>
+                            <Plug/>
+                            <Plug/>
+                            <Plug/>
+                            <Plug/>
+                            <Group className="home-add-plug">
                                 <img src={AddIcon} alt=""/>
-                                <div className="home-output-add__title">Подключить еще одну</div>
+                                <div className="home-add-plug__title">Подключить еще одну</div>
                             </Group>
                         </div>
                     </div>

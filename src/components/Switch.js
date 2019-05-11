@@ -9,18 +9,18 @@ class Switch extends React.Component {
         this.state = {
             switched: props.switched || false
         };
-        this.onChange = props.onChange;
+        this.onSwitch = props.onSwitch;
     }
 
     turnTo(switched) {
         this.setState({ switched });
-        // this.onChange(switched);
+        this.onSwitch(switched);
     }
 
     render() {
         const { switched } = this.state;
         return (
-            <div className="switch">
+            <div className={this.props.className ? "switch " + this.props.className : "switch"}>
                 <div
                     className={switched ? "switch__side switch__toggled" : "switch__side"}
                     onClick={this.turnTo.bind(this, true)}
