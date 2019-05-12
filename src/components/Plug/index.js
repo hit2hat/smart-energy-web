@@ -16,7 +16,7 @@ class Plug extends React.Component {
             amperage: props.amperage,
             power: props.power,
             isOn: props.isOn,
-            index: props.Button,
+            index: props.index,
             name: props.name
         };
     }
