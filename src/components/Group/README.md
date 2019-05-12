@@ -1,6 +1,6 @@
 группа какая-то
 
-```
+```javascript
 const Example = () => {
     return (
         <Group>
@@ -16,7 +16,7 @@ const Example = () => {
             </div>
         </Group>
     );
-}
+};
 
 Example();
 ```

@@ -1,5 +1,5 @@
 кнопка какая-то
-```
+```javascript
 const Example = () => {
     return (
         <div 
@@ -20,7 +20,7 @@ const Example = () => {
             </Button>
         </div>
     );
-}
+};
 
 Example();
 ```

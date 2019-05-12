@@ -88,7 +88,7 @@ class Home extends React.Component {
                                 <div className="data">
                                     Блок заряжен на <span>{this.state.accumulator}</span>%
                                 </div>
-                                <div className="mover" style={{ width: this.state.accumulator + '%' }} />
+                                <div className="mover" style={{ width: this.state.accumulator + "%" }} />
                             </div>
                             <div className="home-accumulator__prediction">
                                 Данной энергии хватит ~ на <span>5</span> часов автономной работы

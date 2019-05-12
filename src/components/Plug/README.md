@@ -1,5 +1,5 @@
 а эт че за розетка?
-```
+```javascript
 const Example = () => {
     return (
         <Plug
@@ -11,7 +11,7 @@ const Example = () => {
             power={68}
         />
     );
-}
+};
 
 Example();
 ```
