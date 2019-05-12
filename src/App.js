@@ -1,8 +1,8 @@
 import React from "react";
 
-import Home from './containers/Home';
+import Home from "./containers/Home";
 
-import './styles/main.sass';
+import "./styles/main.sass";
 
 function App() {
     return (

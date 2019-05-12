@@ -1,11 +1,11 @@
 import React from "react";
 
-import NavBar from '../components/NavBar';
-import Group from '../components/Group';
-import Plug from '../components/Plug';
+import NavBar from "../components/NavBar";
+import Group from "../components/Group";
+import Plug from "../components/Plug";
 
-import SunIcon from '../assets/sun.svg';
-import AddIcon from '../assets/add.svg';
+import SunIcon from "../assets/sun.svg";
+import AddIcon from "../assets/add.svg";
 
 class Home extends React.Component {
 
