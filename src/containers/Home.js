@@ -44,7 +44,7 @@ class Home extends React.Component {
                 amperage: 2.5,
                 power: 68,
                 isOn: true,
-                name: "Лампа"
+                name: "Светильник"
             },
             {
                 index: 5,
