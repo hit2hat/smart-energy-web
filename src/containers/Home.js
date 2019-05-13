@@ -8,12 +8,13 @@ import Plug from "../components/Plug";
 import SunIcon from "../assets/sun.svg";
 import AddIcon from "../assets/add.svg";
 
-const Home = ({ windmill, accumulator, sun, plugs, plugsLoad, plugsTurn, windmillLoad, sunLoad }) => {
+const Home = ({ windmill, accumulator, sun, plugs, plugsLoad, plugsTurn, windmillLoad, sunLoad, accumulatorLoad }) => {
     useEffect(() => {
         plugsLoad();
         windmillLoad();
         sunLoad();
-    }, [plugsLoad, windmillLoad, sunLoad]);
+        accumulatorLoad();
+    }, [plugsLoad, windmillLoad, sunLoad, accumulatorLoad]);
     return (
         <div className="home">
             <NavBar/>
@@ -100,16 +101,17 @@ const Home = ({ windmill, accumulator, sun, plugs, plugsLoad, plugsTurn, windmil
 
 const mapProps = (state) => ({
     windmill: state.windmill,
-    accumulator: 24,
+    accumulator: state.accumulator,
     sun: state.sun,
     plugs: state.plugs
 });
 
-const mapDispatch = ({ plugs, windmill, sun }) => ({
+const mapDispatch = ({ plugs, windmill, sun, accumulator }) => ({
     plugsLoad: plugs.load,
     plugsTurn: plugs.turn,
     windmillLoad: windmill.load,
-    sunLoad: sun.load
+    sunLoad: sun.load,
+    accumulatorLoad: accumulator.load
 });
 
 export default connect(mapProps, mapDispatch)(Home);
