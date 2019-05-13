@@ -16,7 +16,7 @@ const Plug = ({ voltage, amperage, power, isOn, index, name, className, onTurn }
                 <Switch
                     className="plug-visual__switch"
                     switched={isOn}
-                    onSwitch={onTurn}
+                    onSwitch={(state) => onTurn({ index, state })}
                 />
             </div>
             <div className="plug-info">
