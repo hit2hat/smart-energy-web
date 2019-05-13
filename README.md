@@ -1,3 +1,5 @@
+<img src="./docs/screen1.png" alt="Screen">
+
 # Smart Energy | WebUI
 
 [![Actions Status](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/badge/hit2hat/smart-energy-web)](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/results/hit2hat/smart-energy-web)
