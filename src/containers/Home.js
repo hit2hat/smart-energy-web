@@ -76,6 +76,12 @@ const Home = ({ windmill, accumulator, sun, plugs, load, turnPlug }) => {
                         <Group className="home-graph">
 
                         </Group>
+                        <Group className="home-graph">
+
+                        </Group>
+                        <Group className="home-graph">
+
+                        </Group>
                     </div>
                 </div>
                 <Group className="home-support">
