@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Group = (props) => {
+const Group = ({ className, children }) => {
     return (
-        <div className={props.className ? "group " + props.className : "group"}>
-            {props.children}
+        <div className={className ? "group " + className : "group"}>
+            {children}
         </div>
     );
 };
