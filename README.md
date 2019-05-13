@@ -7,7 +7,9 @@
 Dashboard for control Smart Energy station
 
 ## Technologies
-*   React
+*   [React](https://github.com/facebook/react)
+*   [Redux](https://github.com/reduxjs/redux)
+*   [Rematch](https://github.com/rematch/rematch)
 
 ## Links
 *   Design: [InVision Studio Project](https://projects.invisionapp.com/prototype/cjvin0j72000isz018s1dt6we/play)
