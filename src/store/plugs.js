@@ -1,29 +1,3 @@
-const plugs = {
-    state: [],
-    reducers: {
-        loaded(state, plugs) {
-            return plugs
-        },
-        turned(state, plug) {
-            return state.map((p) => {
-                if (p.index === plug.index) {
-                    return {...p, isOn: plug.state};
-                } else {
-                    return p;
-                }
-            });
-        }
-    },
-    effects: (dispatch) => ({
-        async load() {
-            dispatch.plugs.loaded(testData)
-        },
-        async turn(payload) {
-            dispatch.plugs.turned(payload);
-        }
-    })
-};
-
 const testData = [
     {
         index: 1,
@@ -66,5 +40,32 @@ const testData = [
         name: "Кондиционер"
     }
 ];
+
+
+const plugs = {
+    state: [],
+    reducers: {
+        loaded(state, plugs) {
+            return plugs
+        },
+        turned(state, plug) {
+            return state.map((p) => {
+                if (p.index === plug.index) {
+                    return {...p, isOn: plug.state};
+                } else {
+                    return p;
+                }
+            });
+        }
+    },
+    effects: (dispatch) => ({
+        async load() {
+            dispatch.plugs.loaded(testData)
+        },
+        async turn(payload) {
+            dispatch.plugs.turned(payload);
+        }
+    })
+};
 
 export default plugs;
