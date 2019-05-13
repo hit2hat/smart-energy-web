@@ -1,6 +1,9 @@
 workflow "CI/CD" {
   on = "push"
-  resolves = ["VK DevOps"]
+  resolves = [
+    "VK DevOps",
+    "Telegram DevOps",
+  ]
 }
 
 action "Install" {
@@ -37,4 +40,10 @@ action "VK DevOps" {
   env = {
     VK_USERS = "182625786"
   }
+}
+
+action "Telegram DevOps" {
+  uses = "appleboy/telegram-action@master"
+  needs = ["Deploy docs to GitHub Pages"]
+  secrets = ["TELEGRAM_TOKEN", "TELEGRAM_TO"]
 }
