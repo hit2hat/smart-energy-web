@@ -7,7 +7,7 @@ const windmill = {
     },
     effects: (dispatch) => ({
         async load() {
-            dispatch.plugs.loaded(13);
+            dispatch.windmill.loaded(13);
         }
     })
 };
