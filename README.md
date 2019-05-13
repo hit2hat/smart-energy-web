@@ -14,6 +14,7 @@ Dashboard for control Smart Energy station
 *   [Rematch](https://github.com/rematch/rematch)
 
 ## Links
+*   Staging: [Heroku App](https://smart-energy-web.herokuapp.com/)
 *   Design: [InVision Studio Project](https://projects.invisionapp.com/prototype/cjvin0j72000isz018s1dt6we/play)
 *   Docs: [Style Guide Page](https://hit2hat.github.io/smart-energy-web/)
 *   Developer & Designer: [@hit2hat](https://vk.me/hit2hat)
