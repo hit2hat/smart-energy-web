@@ -46,7 +46,7 @@ const plugs = {
     state: [],
     reducers: {
         loaded(state, plugs) {
-            return plugs
+            return plugs;
         },
         turned(state, plug) {
             return state.map((p) => {
@@ -60,7 +60,7 @@ const plugs = {
     },
     effects: (dispatch) => ({
         async load() {
-            dispatch.plugs.loaded(testData)
+            dispatch.plugs.loaded(testData);
         },
         async turn(payload) {
             dispatch.plugs.turned(payload);
