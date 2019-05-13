@@ -9,6 +9,7 @@ const Example = () => {
             voltage={220}
             amperage={2.5}
             power={68}
+            onTurn={console.log}
         />
     );
 };
