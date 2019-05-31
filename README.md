@@ -16,4 +16,4 @@ Dashboard for control Smart Energy station
 ## Links
 *   Design: [InVision Studio Project](https://projects.invisionapp.com/prototype/cjvin0j72000isz018s1dt6we/play)
 *   Docs: [Style Guide Page](https://hit2hat.github.io/smart-energy-web/)
-*   Developer & Designer: [@hit2hat](https://vk.me/hit2hat)
+*   Developer & Designer: [Stepan Novozhilov](https://vk.me/this.state.user)
